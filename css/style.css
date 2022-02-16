@@ -1,0 +1,149 @@
+/* Обнуляющий стиль */
+@import "null.css";
+/* Подключение шрифтов */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+/* Оболочка */
+body {
+	font-family: "Lato", sans-serif;
+	max-width: 810px;
+	margin: 0 auto;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.title {
+	font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+	color: #1E212C;
+	margin: 0px 0px 26px 0px;
+}
+.data {
+	margin: 0px 0px 40px 0px;
+}
+.august {
+	display: inline-block;
+	font-size: 16px;
+   line-height: 160%;
+	color: #787A80;
+	padding: 0px 0px 0px 24px;
+	background: url("../img/Calendar.svg") left center no-repeat;
+}
+.time { 
+	display: inline-block;
+	font-size: 16px;
+   line-height: 160%;
+	padding: 0px 0px 0px 24px;
+	margin: 0px 0px 0px 24px;
+	color: #787A80;
+	background: url("../img/Clock.svg")  left center no-repeat;
+
+}
+.image {
+	margin: 0px 0px 60px 0px;
+}
+.text-1 {
+	font-weight: bold;
+   font-size: 20px;
+   line-height: 150%;
+   color: #1E212C;
+	margin: 0px 0px 24px 0px;
+}
+.text-2 {
+	font-size: 16px;
+   line-height: 160%;
+   color: #424551;
+	margin: 0px 0px 24px 0px;
+}
+.text-3 {
+	font-size: 16px;
+   line-height: 160%;
+   color: #424551;
+	margin: 0px 0px 48px 0px;
+}
+.text-4 {
+	font-weight: bold;
+   font-size: 20px;
+   line-height: 150%;
+   color: #1E212C;
+	padding: 0px 0px 0px 58px;
+	background: url("../img/braces.svg") no-repeat;
+	margin: 0px 0px 48px 0px;
+}
+.text-5 {
+	font-size: 16px;
+   line-height: 160%;
+   color: #424551;
+	margin: 0px 0px 24px 0px;
+}
+.list {
+	margin: 0px 0px 24px 0px;
+}
+li {
+   background: url("../img/check.svg") no-repeat; 
+	padding: 0px 0px 0px 32px;
+	margin: 0px 0px 15px 0px;
+	font-size: 16px;
+   color: #424551;
+}
+.list li:last-child {
+   margin-bottom: 0;
+}
+.text-6 {
+	font-size: 16px;
+   line-height: 160%;
+   color: #424551;
+	margin: 0px 0px 60px 0px;
+}
+
+/* Second exercise*/
+.second-exesize {
+	max-width: 390px;
+}
+.subtitle {
+	font-weight: bold;
+   line-height: 150%;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: #1E212C;
+	margin: 0px 0px 8px 0px;
+}
+.title-createx {
+	font-weight: 900;
+   font-size: 46px;
+	line-height: 130%;
+   color: #1E212C;
+	margin: 0px 0px 40px 0px;
+}
+.list-createx {
+	margin: 0px 0px 22px 0px;
+}
+.list-createx li {
+   line-height: 160%; 
+   color: #424551;
+	background: url("../img/check.svg") no-repeat;
+}
+.list-createx li:last-child {
+	margin-bottom: 0px;
+}
+.list-createx li:nth-child(4) {
+	max-width: 375px;
+	background: url("../img/check.svg") left center no-repeat;
+}
+.button {
+   max-width: 161px;
+   max-height: 44px;
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+   border-radius: 4px;
+	margin: 0px 0px 24px 0px;
+	padding: 0px 32px;
+}
+.btn {
+	font-weight: bold;
+   font-size: 14px;
+   line-height: 314%;
+   letter-spacing: 0.5px;
+   color: #FFFFFF;
+}
